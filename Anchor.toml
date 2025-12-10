@@ -1,0 +1,11 @@
+workspace = "."
+
+[programs.localnet]
+spl_account_closer = "YourProgramIDHere111111111111111111111111111"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
